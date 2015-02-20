@@ -9,4 +9,4 @@ gradle-app.setting
 *.iml
 
 node_modules
-core/src/main/webapp/admin/components
+core/src/main/webapp/admin_app/components
