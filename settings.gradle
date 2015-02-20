@@ -1,0 +1,5 @@
+rootProject.name = 'gae-blog'
+
+include 'core'
+project(':core').name = 'gae-blog-core'
+

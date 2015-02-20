@@ -1,0 +1,12 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath 'com.google.appengine:gradle-appengine-plugin:1.9.17'
+    }
+}
+
+group = 'io.tals.gaeblog'
+version = '0.0.1'
