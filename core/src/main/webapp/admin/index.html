@@ -1,10 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head lang="en">
+    <base href="../admin_app/">
     <meta charset="UTF-8">
     <title></title>
+    <link rel="stylesheet" href="components/bootstrap/dist/css/bootstrap.css" />
 </head>
-<body>
+<!--<body>-->
+<body ng-app="gae-blog">
 
+
+<div ng-controller="MainCtrl">
+    <auth-directive>
+    </auth-directive>
+<!--<div ng-controller="AuthCtrl">-->
+    <!--<div ng-hide="isLoggedin">You are currently not logged in to Google, </div>-->
+</div>
+</div>
+
+<script type="text/javascript" src="https://apis.google.com/js/client.js?onload=handleClientLoad"></script>
+
+<script src="components/jquery/dist/jquery.js"></script>
+<script src="components/angular/angular.js"></script>
+<script src="components/bootstrap/dist/js/bootstrap.js"></script>
+
+<script src="scripts/app.js"></script>
+<script src="scripts/main.js"></script>
+<script src="scripts/authentication/auth-directive.js"></script>
 </body>
 </html>
