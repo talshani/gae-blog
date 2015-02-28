@@ -30,7 +30,6 @@
         </ul>
         <h3 class="text-muted">admin</h3>
       </div>
-
       <div ng-view=""></div>
 
       <div class="footer">
@@ -49,6 +48,8 @@
        ga('create', 'UA-XXXXX-X');
        ga('send', 'pageview');
     </script>
+
+    <script type="text/javascript" src="https://apis.google.com/js/client.js?onload=handleClientLoad"></script>
 
     <!-- build:js(.) scripts/oldieshim.js -->
     <!--[if lt IE 9]>
@@ -75,6 +76,7 @@
         <script src="scripts/app.js"></script>
         <script src="scripts/controllers/main.js"></script>
         <script src="scripts/controllers/about.js"></script>
+        <script src="scripts/services/gdrive.js"></script>
         <!-- endbuild -->
 </body>
 </html>
